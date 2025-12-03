@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8f83d8;
+
+  --color-dark: #333333;
+  --color-dark-secondary: #555555;
+
+  --color-light: #ffffff;
+  --color-light-secondary: #f5f5f5;
+}
+
+@utility ui-container{
+  @apply max-w-xl mx-auto px-4
+}
