@@ -11,6 +11,11 @@ const FeatureCategoryList = () => {
   const total = phoneFeatures.reduce((s, { items }) => s + items.length, 0);
 
   useEffect(() => {
+    if (checkedItemsIds.length === 0) {
+      localStorage.removeItem("phone-features");
+      return;
+    }
+
     localStorage.setItem("phone-features", JSON.stringify(checkedItemsIds));
   }, [checkedItemsIds]);
 
