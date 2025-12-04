@@ -1,11 +1,14 @@
 const Header = () => {
   return (
-    <header className="my-6 text-center mb-8">
-      <h1 className="text-3xl md:text-4xl font-bold mb-2">
+    <header className="ui-container my-8 text-center">
+      <img src="/pwa-512x512.png" alt="" className="w-20 mx-auto" />
+
+      <h1 className="mb-2 text-2xl md:text-3xl font-bold text-primary">
         Phone Purchase Checklist
       </h1>
-      <p className="text-dark-secondary mb-4">
-        A comprehensive guide to ensure you get the perfect phone
+
+      <p className="text-dark-secondary text-sm">
+        A guide to ensure get the perfect phone
       </p>
     </header>
   );
