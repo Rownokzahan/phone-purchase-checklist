@@ -2,6 +2,17 @@ import type { FeatureCategoryType } from "../types";
 
 export const phoneFeatures: FeatureCategoryType[] = [
   {
+    id: "variant",
+    title: "Variant",
+    items: [
+      {
+        id: "variant-1",
+        label:
+          "Global / Indian",
+      },
+    ],
+  },
+  {
     id: "performance",
     title: "Performance",
     items: [
