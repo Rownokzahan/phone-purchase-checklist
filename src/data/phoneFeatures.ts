@@ -63,6 +63,7 @@ export const phoneFeatures: FeatureCategoryType[] = [
       },
       { id: "build-2", label: "IP rating for water/dust resistance" },
       { id: "build-3", label: "Solid physical buttons" },
+      { id: "build-4", label: "Better if does not have curved display" },
     ],
   },
   {
