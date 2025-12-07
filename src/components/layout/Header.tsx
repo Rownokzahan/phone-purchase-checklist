@@ -8,7 +8,7 @@ const Header = () => {
       </h1>
 
       <p className="text-dark-secondary text-sm">
-        A guide to ensure get the perfect phone
+        Check the IMEI number by dialing *#06#
       </p>
     </header>
   );
